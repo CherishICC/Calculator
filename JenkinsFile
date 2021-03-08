@@ -1,0 +1,36 @@
+pipeline 
+{
+    agent any
+
+    stages 
+    {
+        stage('Git clone') 
+        {
+            steps 
+            {
+                git 'https://github.com/CherishICC/Calculator.git'
+            }
+        }
+        stage('Clean') 
+        {
+            steps 
+            {
+                sh 'mvn clean'
+            }
+        }
+        stage('Build') 
+        {
+            steps 
+            {
+                sh 'mvn install'
+            }
+        }
+        stage('Test') 
+        {
+            steps 
+            {
+                sh 'mvn test'
+            }
+        }
+    }
+}
