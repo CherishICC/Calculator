@@ -9,9 +9,9 @@ public class CalculatorTest {
 		Calculator c = new Calculator();
 //		fail("Not yet implemented");
 		double x = c.sqrt(25);
-		assertEquals(5.0,n,0.0);
+		assertEquals(5.0,x,0.0);
 		x = c.sqrt(3);
-		assertEquals(1.7320508075688772,n,0.0);
+		assertEquals(1.7320508075688772,x,0.0);
 	}
 
 }
