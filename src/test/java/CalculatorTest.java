@@ -33,4 +33,13 @@ public class CalculatorTest {
 		assertEquals(1.3862943611198906,n,0.001);
 	}
 
+	@Test
+	public void testPower()
+	{
+		Calculator c = new Calculator();
+		double n = c.power(2,3);
+		assertEquals(8.0,n,0.0);
+		n = c.power(-1,1);
+		assertEquals(-1.0,n,0.0);
+	}
 }

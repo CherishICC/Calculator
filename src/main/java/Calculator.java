@@ -11,8 +11,8 @@ public class Calculator
         boolean bool = true;
         while(bool)
         {
-            System.out.print("Select the operation to be performed from below options\n");
-            System.out.println("1.Square Root\n2.Factorial\n3.Logarithm\nAny other number to Exit");
+            System.out.print("Select the operation to perform\n");
+            System.out.println("1.Square Root\n2.Factorial\n3.Logarithm\n4.Power\nAny other number to Exit");
             n = input.nextInt();
             double x;
             switch (n) {
@@ -30,6 +30,13 @@ public class Calculator
                     System.out.print("Enter a number: ");
                     x = input.nextDouble();
                     System.out.println("Logarithm of "+ x + " is " + ln(x));
+                    break;
+                case 4:
+                    System.out.print("Enter the base: ");
+                    x = input.nextDouble();
+                    System.out.print("Enter the exponent: ");
+                    double y = input.nextDouble();
+                    System.out.println(x + " raised to the power of " + y + " is "+ power(x,y));
                     break;
                 default:
                     System.out.println("Exiting");
@@ -116,5 +123,14 @@ public class Calculator
             logger.info("[RESULT - LOGARITHM] - "+logarithm);
         }
         return logarithm;
+    }
+
+    public static double power(double x,double y)
+    {
+    	double solution = 1;
+    	logger.info("[POWER] - "+ x +","+ y);
+    	solution = Math.pow(x,y);
+    	logger.info("[RESULT - POWER] - "+solution);
+    	return solution;
     }
 }
