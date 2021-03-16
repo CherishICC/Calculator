@@ -23,4 +23,14 @@ public class CalculatorTest {
 		assertEquals(120,n,0.0);
 	}
 
+	@Test
+	public void testLogarithm()
+	{
+		Calculator c = new Calculator();
+		double n = c.ln(1);
+		assertEquals(0.0,n,0.0);
+		n = c.ln(4);
+		assertEquals(1.3862943611198906,n,0.001);
+	}
+
 }
