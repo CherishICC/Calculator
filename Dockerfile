@@ -7,6 +7,6 @@ RUN mvn clean install
 
 FROM openjdk:11-jre
 
-COPY --from=builder /build/target/calculator-1.0-SNAPSHOT.jar .
+COPY --from=builder /build/target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar .
 
-CMD java -jar calculator-1.0-SNAPSHOT.jar
+CMD java -jar calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
