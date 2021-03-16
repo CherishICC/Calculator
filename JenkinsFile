@@ -60,5 +60,24 @@ pipeline
                 }
             }
         }
+        stage('Deploy on Node') 
+        {
+            steps 
+            {
+                script 
+                {
+                    step
+                    ([
+                        $class: "RundeckNotifier",
+                        includeRundeckLogs: true,
+                        rundeckInstance: "Rundeck server",
+                        jobId: "0505df7f-d82a-4023-bc39-cbf3a73676fe",
+                        shouldWaitForRundeckJob: true,
+                        shouldFailTheBuild: true,
+                        tailLog: true
+                    ])
+                }
+            }
+        }
     }
 }
