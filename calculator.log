@@ -1,0 +1,6 @@
+16/Mar/2021:13:25:50 556 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:13:25:50 560 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:13:25:50 561 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:13:25:50 561 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:13:27:01 491 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 4.0
+16/Mar/2021:13:27:01 493 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 2.0
