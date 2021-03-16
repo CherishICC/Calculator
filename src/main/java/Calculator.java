@@ -39,7 +39,7 @@ public class Calculator
             if(x<0)
             {
                 square_root = Double.NaN;
-                throw new IllegalArgumentException("Input can't be negative");
+                throw new IllegalArgumentException("Input cannot be negative");
             }
             else square_root =  Math.sqrt(x);
         } 
@@ -51,5 +51,37 @@ public class Calculator
             logger.info("[RESULT - SQUARE_ROOT] - "+square_root);
         }
         return square_root;
-    }    
+    }  
+    
+    public static double factorial(double x)
+    {
+        double fact = 1;
+        try {
+            logger.info("[FACTORIAL] - "+x);
+            if(x<0)
+            {
+                fact = Double.NaN;
+                throw new IllegalArgumentException("Input cannot be negative");
+            }
+            else if(x==0 || x==1)
+            {
+                fact =  1;
+            }
+            else
+            {
+                for(int i=2;i<=x;i++)
+                {
+                    fact = fact * i;
+                }
+            }
+        } 
+        catch (IllegalArgumentException error) {
+            logger.error("[EXCEPTION - FACTORIAL] - INVALID INPUT "+error.getLocalizedMessage());
+        }
+        finally
+        {
+            logger.info("[RESULT - FACTORIAL] - "+fact);
+        }
+        return fact;
+    }
 }
