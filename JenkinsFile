@@ -71,7 +71,7 @@ pipeline
                         $class: "RundeckNotifier",
                         includeRundeckLogs: true,
                         rundeckInstance: "Rundeck server",
-                        jobId: "0505df7f-d82a-4023-bc39-cbf3a73676fe",
+                        jobId: "33147041-9745-40eb-966d-9e9bf8432280",
                         shouldWaitForRundeckJob: true,
                         shouldFailTheBuild: true,
                         tailLog: true
