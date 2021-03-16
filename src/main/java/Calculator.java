@@ -51,5 +51,5 @@ public class Calculator
             logger.info("[RESULT - SQUARE_ROOT] - "+square_root);
         }
         return square_root;
-    }    }
+    }    
 }
