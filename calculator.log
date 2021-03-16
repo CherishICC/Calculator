@@ -70,3 +70,70 @@
 16/Mar/2021:20:05:08 293 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 6.0
 16/Mar/2021:20:05:25 924 [Calculator.java] [INFO] Calculator [LOGARITHM] - 5.0
 16/Mar/2021:20:05:25 925 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 1.6094379124341003
+16/Mar/2021:20:16:57 153 [Calculator.java] [INFO] Calculator [LOGARITHM] - 1.0
+16/Mar/2021:20:16:57 157 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 0.0
+16/Mar/2021:20:16:57 157 [Calculator.java] [INFO] Calculator [LOGARITHM] - 4.0
+16/Mar/2021:20:16:57 158 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 1.3862943611198906
+16/Mar/2021:20:16:57 159 [Calculator.java] [INFO] Calculator [POWER] - 2.0,3.0
+16/Mar/2021:20:16:57 159 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+16/Mar/2021:20:16:57 160 [Calculator.java] [INFO] Calculator [POWER] - -1.0,1.0
+16/Mar/2021:20:16:57 160 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -1.0
+16/Mar/2021:20:16:57 161 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:20:16:57 161 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:20:16:57 161 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:20:16:57 162 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:20:16:57 162 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:20:16:57 162 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:20:16:57 163 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:20:16:57 163 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:20:28:11 733 [Calculator.java] [INFO] Calculator [LOGARITHM] - 1.0
+16/Mar/2021:20:28:11 736 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 0.0
+16/Mar/2021:20:28:11 737 [Calculator.java] [INFO] Calculator [LOGARITHM] - 4.0
+16/Mar/2021:20:28:11 737 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 1.3862943611198906
+16/Mar/2021:20:28:11 738 [Calculator.java] [INFO] Calculator [POWER] - 2.0,3.0
+16/Mar/2021:20:28:11 739 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+16/Mar/2021:20:28:11 739 [Calculator.java] [INFO] Calculator [POWER] - -1.0,1.0
+16/Mar/2021:20:28:11 739 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -1.0
+16/Mar/2021:20:28:11 740 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:20:28:11 740 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:20:28:11 741 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:20:28:11 741 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:20:28:11 742 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:20:28:11 742 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:20:28:11 742 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:20:28:11 743 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:20:28:20 216 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 5.0
+16/Mar/2021:20:28:20 227 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 2.23606797749979
+16/Mar/2021:20:28:24 749 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - -1.0
+16/Mar/2021:20:28:24 749 [Calculator.java] [ERROR] Calculator [EXCEPTION - SQUARE_ROOT] - INVALID INPUT Input cannot be negative
+16/Mar/2021:20:28:24 750 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - NaN
+16/Mar/2021:20:28:28 748 [Calculator.java] [INFO] Calculator [FACTORIAL] - 6.0
+16/Mar/2021:20:28:28 748 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 720.0
+16/Mar/2021:20:28:40 013 [Calculator.java] [INFO] Calculator [FACTORIAL] - -3.0
+16/Mar/2021:20:28:40 013 [Calculator.java] [ERROR] Calculator [EXCEPTION - FACTORIAL] - INVALID INPUT Input cannot be negative
+16/Mar/2021:20:28:40 014 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - NaN
+16/Mar/2021:20:28:56 819 [Calculator.java] [INFO] Calculator [LOGARITHM] - 3.0
+16/Mar/2021:20:28:56 820 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 1.0986122886681098
+16/Mar/2021:20:29:00 117 [Calculator.java] [INFO] Calculator [LOGARITHM] - -1.0
+16/Mar/2021:20:29:00 117 [Calculator.java] [ERROR] Calculator [EXCEPTION - LOGARITHM] - INVALID INPUT Input should be positive
+16/Mar/2021:20:29:00 118 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - NaN
+16/Mar/2021:20:29:08 357 [Calculator.java] [INFO] Calculator [POWER] - 1.0,2.0
+16/Mar/2021:20:29:08 358 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 1.0
+16/Mar/2021:20:29:55 685 [Calculator.java] [INFO] Calculator [LOGARITHM] - 1.0
+16/Mar/2021:20:29:55 689 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 0.0
+16/Mar/2021:20:29:55 689 [Calculator.java] [INFO] Calculator [LOGARITHM] - 4.0
+16/Mar/2021:20:29:55 689 [Calculator.java] [INFO] Calculator [RESULT - LOGARITHM] - 1.3862943611198906
+16/Mar/2021:20:29:55 690 [Calculator.java] [INFO] Calculator [POWER] - 2.0,3.0
+16/Mar/2021:20:29:55 691 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 8.0
+16/Mar/2021:20:29:55 691 [Calculator.java] [INFO] Calculator [POWER] - -1.0,1.0
+16/Mar/2021:20:29:55 692 [Calculator.java] [INFO] Calculator [RESULT - POWER] - -1.0
+16/Mar/2021:20:29:55 692 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:20:29:55 693 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:20:29:55 693 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:20:29:55 693 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:20:29:55 694 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:20:29:55 694 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:20:29:55 695 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:20:29:55 695 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:20:30:04 031 [Calculator.java] [INFO] Calculator [POWER] - 2.0,5.0
+16/Mar/2021:20:30:04 040 [Calculator.java] [INFO] Calculator [RESULT - POWER] - 32.0
