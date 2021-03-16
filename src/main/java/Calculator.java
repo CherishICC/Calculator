@@ -35,13 +35,13 @@ public class Calculator
     {
         double square_root = 0;
         try {
-            logger.info("[SQUARE_ROOT] - "+n);
-            if(n<0)
+            logger.info("[SQUARE_ROOT] - "+x);
+            if(x<0)
             {
                 square_root = Double.NaN;
                 throw new IllegalArgumentException("Input can't be negative");
             }
-            else square_root =  Math.sqrt(n);
+            else square_root =  Math.sqrt(x);
         } 
         catch (IllegalArgumentException error) {
             logger.error("[EXCEPTION - SQUARE_ROOT] - INVALID INPUT "+error.getLocalizedMessage());
