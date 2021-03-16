@@ -12,13 +12,19 @@ public class Calculator
         while(bool)
         {
             System.out.print("Select the operation to be performed from below options\n");
-            System.out.println("1.Square Root\n Any other number to Exit");
+            System.out.println("1.Square Root\n2.Factorial\nAny other number to Exit");
             n = input.nextInt();
+            double x;
             switch (n) {
                 case 1:
-                    System.out.println("Enter the number: ");
-                    double x = input.nextDouble();
-                    System.out.println("Square root of "+x+" = "+sqrt(x));
+                    System.out.print("Enter the number: ");
+                    x = input.nextDouble();
+                    System.out.println("Square root of "+ x +" is "+sqrt(x));
+                    break;
+                case 2:
+                    System.out.print("Enter an integer: ");
+                    x = input.nextDouble();
+                    System.out.println("Factorial of "+ x + " is " + factorial(x));
                     break;
                 default:
                     System.out.println("Exiting the program");

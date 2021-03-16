@@ -4,3 +4,43 @@
 16/Mar/2021:13:25:50 561 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
 16/Mar/2021:13:27:01 491 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 4.0
 16/Mar/2021:13:27:01 493 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 2.0
+16/Mar/2021:19:32:47 478 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:19:32:47 482 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:19:32:47 483 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:19:32:47 483 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:19:32:47 484 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:19:32:47 485 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:19:32:47 485 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:19:32:47 485 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:19:38:03 462 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:19:38:03 466 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:19:38:03 466 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:19:38:03 467 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:19:38:03 468 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:19:38:03 469 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:19:38:03 469 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:19:38:03 469 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:19:38:29 928 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 5.0
+16/Mar/2021:19:38:29 937 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 2.23606797749979
+16/Mar/2021:19:38:44 828 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 9.0
+16/Mar/2021:19:38:44 829 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 3.0
+16/Mar/2021:19:38:52 668 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - -1.0
+16/Mar/2021:19:38:52 669 [Calculator.java] [ERROR] Calculator [EXCEPTION - SQUARE_ROOT] - INVALID INPUT Input cannot be negative
+16/Mar/2021:19:38:52 670 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - NaN
+16/Mar/2021:19:39:08 180 [Calculator.java] [INFO] Calculator [FACTORIAL] - -1.0
+16/Mar/2021:19:39:08 181 [Calculator.java] [ERROR] Calculator [EXCEPTION - FACTORIAL] - INVALID INPUT Input cannot be negative
+16/Mar/2021:19:39:08 181 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - NaN
+16/Mar/2021:19:39:59 396 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 25.0
+16/Mar/2021:19:39:59 400 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 5.0
+16/Mar/2021:19:39:59 400 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - 3.0
+16/Mar/2021:19:39:59 401 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - 1.7320508075688772
+16/Mar/2021:19:39:59 402 [Calculator.java] [INFO] Calculator [FACTORIAL] - 0.0
+16/Mar/2021:19:39:59 402 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 1.0
+16/Mar/2021:19:39:59 403 [Calculator.java] [INFO] Calculator [FACTORIAL] - 5.0
+16/Mar/2021:19:39:59 403 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - 120.0
+16/Mar/2021:19:40:07 633 [Calculator.java] [INFO] Calculator [SQUARE_ROOT] - -4.0
+16/Mar/2021:19:40:07 635 [Calculator.java] [ERROR] Calculator [EXCEPTION - SQUARE_ROOT] - INVALID INPUT Input cannot be negative
+16/Mar/2021:19:40:07 635 [Calculator.java] [INFO] Calculator [RESULT - SQUARE_ROOT] - NaN
+16/Mar/2021:19:47:48 285 [Calculator.java] [INFO] Calculator [FACTORIAL] - -5.0
+16/Mar/2021:19:47:48 285 [Calculator.java] [ERROR] Calculator [EXCEPTION - FACTORIAL] - INVALID INPUT Input cannot be negative
+16/Mar/2021:19:47:48 286 [Calculator.java] [INFO] Calculator [RESULT - FACTORIAL] - NaN
