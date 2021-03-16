@@ -66,8 +66,7 @@ pipeline
             {
                 script 
                 {
-                    step
-                    ([
+                    step([
                         $class: "RundeckNotifier",
                         includeRundeckLogs: true,
                         rundeckInstance: "Rundeck server",
