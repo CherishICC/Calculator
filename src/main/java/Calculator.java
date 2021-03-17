@@ -19,24 +19,24 @@ public class Calculator
                 case 1:
                     System.out.print("Enter a number: ");
                     x = input.nextDouble();
-                    System.out.println("Square root of "+ x +" is "+ sqrt(x));
+                    System.out.println("Square root of "+ x +" is "+ sqrt(x) + "\n");
                     break;
                 case 2:
                     System.out.print("Enter an integer: ");
                     x = input.nextDouble();
-                    System.out.println("Factorial of "+ x + " is " + factorial(x));
+                    System.out.println("Factorial of "+ x + " is " + factorial(x) + "\n");
                     break;
                 case 3:
                     System.out.print("Enter a number: ");
                     x = input.nextDouble();
-                    System.out.println("Logarithm of "+ x + " is " + ln(x));
+                    System.out.println("Logarithm of "+ x + " is " + ln(x) + "\n");
                     break;
                 case 4:
                     System.out.print("Enter the base: ");
                     x = input.nextDouble();
                     System.out.print("Enter the exponent: ");
                     double y = input.nextDouble();
-                    System.out.println(x + " raised to the power of " + y + " is "+ power(x,y));
+                    System.out.println(x + " raised to the power of " + y + " is "+ power(x,y) + "\n");
                     break;
                 default:
                     System.out.println("Exiting");
