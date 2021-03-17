@@ -12,7 +12,7 @@ public class Calculator
         while(bool)
         {
             System.out.print("Select the operation to perform\n");
-            System.out.println("1.Square Root\n2.Factorial\n3.Logarithm\n4.Power\nAny other number to Exit");
+            System.out.print("1.Square Root  2.Factorial  3.Logarithm  4.Power\nAny other number to Exit: ");
             n = input.nextInt();
             double x;
             switch (n) {
