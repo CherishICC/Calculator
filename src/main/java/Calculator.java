@@ -62,7 +62,7 @@ public class Calculator
             else square_root =  Math.sqrt(x);
         } 
         catch (IllegalArgumentException error) {
-            logger.error("[EXCEPTION - SQUARE_ROOT] - INVALID INPUT "+error.getLocalizedMessage());
+            logger.error("[EXCEPTION - SQUARE_ROOT] - INVALID INPUT - "+error.getLocalizedMessage());
         }
         finally
         {
@@ -94,7 +94,7 @@ public class Calculator
             }
         } 
         catch (IllegalArgumentException error) {
-            logger.error("[EXCEPTION - FACTORIAL] - INVALID INPUT "+error.getLocalizedMessage());
+            logger.error("[EXCEPTION - FACTORIAL] - INVALID INPUT - "+error.getLocalizedMessage());
         }
         finally
         {
@@ -116,7 +116,7 @@ public class Calculator
             else logarithm =  Math.log(x);
         } 
         catch (IllegalArgumentException error) {
-            logger.error("[EXCEPTION - LOGARITHM] - INVALID INPUT "+error.getLocalizedMessage());
+            logger.error("[EXCEPTION - LOGARITHM] - INVALID INPUT - "+error.getLocalizedMessage());
         }
         finally
         {
