@@ -68,7 +68,7 @@ public class CalculatorTest
 		x = c.power(-1,-1);
 		assertEquals(-1.0,x,0.0);
 		x = c.power(0,0);
-		assertEquals(0,x,0.0);
+		assertEquals(1,x,0.0);
 		x = c.power(4,2);
 		assertNotEquals(8,x,0.0);
 	}
