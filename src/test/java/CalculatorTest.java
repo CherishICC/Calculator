@@ -2,17 +2,23 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class CalculatorTest {
+public class CalculatorTest 
+{
 
 	@Test
-	public void testSqrt() {
+	public void testSqrt() 
+	{
 		Calculator c = new Calculator();
 		double x = c.sqrt(25);
 		assertEquals(5.0,x,0.0);
 		x = c.sqrt(3);
 		assertEquals(1.7320508075688772,x,0.0);
+		x = c.sqrt(0);
+		assertEquals(0,x,0.0);
 		x = c.sqrt(-3);
 		assertEquals(Double.NaN,x,0.0);
+		x = c.sqrt(3);
+		assertNotEquals(3,x,0.0);
 	}
 
 	@Test
@@ -27,6 +33,10 @@ public class CalculatorTest {
 		assertEquals(1.0,x,0.0);
 		x = c.factorial(-5);
 		assertEquals(Double.NaN,x,0.0);
+		x = c.factorial(0);
+		assertNotEquals(Double.NaN,x,0.0);
+		x = c.factorial(0);
+		assertEquals(1,x,0.0);
 	}
 
 	@Test
@@ -41,6 +51,8 @@ public class CalculatorTest {
 		assertEquals(Double.NaN,x,0.001);
 		x = c.ln(10);
 		assertEquals(2.302585092994046,x,0.001);
+		x = c.ln(10);
+		assertNotEquals(1.302585092994046,x,0.001);
 	}
 
 	@Test
@@ -55,5 +67,9 @@ public class CalculatorTest {
 		assertEquals(0.0,x,0.0);
 		x = c.power(-1,-1);
 		assertEquals(-1.0,x,0.0);
+		x = c.power(0,0);
+		assertEquals(0,x,0.0);
+		x = c.power(4,2);
+		assertNotEquals(8,x,0.0);
 	}
 }
